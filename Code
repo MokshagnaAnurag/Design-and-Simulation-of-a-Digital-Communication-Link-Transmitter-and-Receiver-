@@ -1,3 +1,5 @@
+```markdown
+
 ```matlab
 % Parameters
 N = 1e5; % Number of bits to transmit
@@ -43,4 +45,25 @@ ylabel('Bit Error Rate (BER)');
 title('BER Performance of BPSK in AWGN Channel');
 ```
 
+## Results
+The simulation results show that as the Energy per Bit to Noise Power Spectral Density Ratio (Eb/N0) increases, the Bit Error Rate (BER) decreases, indicating improved signal quality. The analysis includes various performance metrics and visualizations to demonstrate system reliability.
 
+## Applications
+The digital communication link designed in this project has practical applications in areas such as:
+- Wireless Communication Systems (Mobile Networks, Wi-Fi)
+- Satellite Communication
+- Military Communication Systems
+- Internet of Things (IoT)
+- Digital Broadcasting Systems
+- Underwater Communication
+- Medical Telemetry
+- Optical Communication Systems
+- Software-Defined Radios (SDR)
+- Digital Signal Processing in Consumer Electronics
+
+## Conclusion
+The design and simulation of a digital communication link are crucial for understanding modern communication systems. This project demonstrates the significance of BPSK modulation and the impact of AWGN on system performance.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
